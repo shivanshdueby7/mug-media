@@ -48,10 +48,14 @@ Nothing from the form is stored on this page or in this repository.
 ## Structure
 
 ```
-index.html            # the whole site, self-contained (images embedded)
-assets/images/        # logo + project screenshots, for reuse
+index.html            # the whole site, self-contained
+                      # (logo + project screenshots are embedded in it)
 README.md             # this file
 ```
+
+Note: the logo and screenshots live inside `index.html` itself, so the
+site works from that one file alone. Separate JPG copies are not in this
+repo because the GitHub connector only pushes text files.
 
 ## Security notes
 
